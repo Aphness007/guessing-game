@@ -18,11 +18,11 @@ class GuessingGame {
     
 
     lower() {
-    this.greaterNum = this.half_way;
+        return this.greaterNum = this.half_way;
     }
 
     greater() {
-    this.lowerNum = this.half_way;
+        return this.lowerNum = this.half_way;
     }
 }
 
